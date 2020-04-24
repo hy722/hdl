@@ -1,0 +1,27 @@
+{
+  "name": "elb_server",
+  "version": "1.0.0",
+  "description": "elb backend system",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "htpps://www.gitgub.com"
+  },
+  "keywords": [
+    "elb",
+    "api"
+  ],
+  "author": "hy",
+  "license": "ISC",
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mysql": "^2.18.1"
+  }
+}

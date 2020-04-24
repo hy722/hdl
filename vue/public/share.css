@@ -1,0 +1,36 @@
+/*所有html文件共用的css样样式*/
+ul,li,ol,table,tr,th,td,div,input,legend,hr,br,span,b,s,option,form,thead,tbody,tfoot,video,img,a,select,p,body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/*清除a标签的下滑线*/
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+/*清除li的默认样式*/ 
+li{
+    list-style: none;
+}
+input{
+   line-height:0 !important; 
+   overflow:visible;
+   padding:0;
+   margin:0;
+}
+/*解决浮动后父元素高度坍塌*/
+.clearDiv::after{
+   content:"";
+   display:inline-block;
+}
+/*解决设置子元素的上外边距时父元元素也跟着移动*/
+.marignTable::before{
+    content:"";
+    display:table;
+}
+/*清除浮动*/
+.clearBoth{
+    clear:both;
+}
